@@ -1,0 +1,12 @@
+Question 1 
+ Votre protocole annonce une analyse statique uniquement, avec MobSF ou CryptoGuard. Or votre pilote montre que 2 applis sur 12 sont inanalysables (Flutter, code natif). Comment votre méthode traite-t-elle les applications à code natif (C/C++, Flutter, React Native) ? Les excluez-vous du corpus, ou les comptez-vous comme "non analysables" dans le dénominateur ? Ce choix change radicalement la prévalence que vous mesures. 
+
+
+Réponse du groupe 7 : « Notre outil sait lire le code Java des applications. Les applications Flutter ou en code natif, il ne peut pas les lire. Donc on ne les compte ni comme bonnes ni comme mauvaises : on les met à part et on donne leur nombre. Dans notre test, c’était 2 sur 12. Notre résultat porte sur les applications qu’on peut analyser, et nous le disons clairement comme une limite. »
+
+
+Question 2
+«Votre hypothèse de départ est que la prévalence des erreurs dans les applis de paiement ouest-africaines est proche des 88 % d'Egele et al. (2013). Or votre propre pilote trouve 0 erreur sur 5 applis analysables (IC 95 % [0 ; 43 %]). Comment conciliez-vous cette hypothèse avec votre résultat pilote ? Plus généralement, sur quelle base théorique ou empirique affirmez-vous que les applis de paiement (qui manipulent de l'argent réel) commettent autant d'erreurs que les applis Android génériques de 2013 ? 
+
+
+Réponse du groupe 7 : « Notre hypothèse n’est pas 88 %. Les 88 %, c’est le chiffre d’une étude de 2013 : c’est notre point de comparaison, pas notre prédiction. Notre test n’avait que 5 applications, open source, qui ne sont pas du mobile money. Avec si peu d’applications, on ne peut pas conclure. Il montre seulement que notre méthode fonctionne. Le vrai chiffre viendra du corpus complet, et si ce chiffre est faible, c’est aussi un résultat. ». 

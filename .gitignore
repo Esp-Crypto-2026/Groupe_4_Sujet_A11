@@ -1,0 +1,26 @@
+# Environnements virtuels Python
+venv/
+demo_A11/venv/
+.venv/
+env/
+
+# Dépendances Node
+node_modules/
+
+# Cache et artefacts
+__pycache__/
+*.pyc
+.cache/
+artifacts/
+cache/
+
+# Secrets et config locale
+.env
+*.log
+
+# OS
+.DS_Store
+Thumbs.dbvenv/
+**/venv/
+node_modules/
+**/node_modules/
